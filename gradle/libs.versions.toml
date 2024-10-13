@@ -1,5 +1,5 @@
 [versions]
-agp = "8.4.0"
+agp = "8.7.0"
 firebaseBom = "33.1.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
@@ -20,7 +20,6 @@ sdpAndroid = "1.1.0"
 retrofit = "2.9.0"
 okhttp = "4.9.3"
 coreKtx = "1.13.1"
-firebaseCommon = "21.0.0"
 
 [libraries]
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
@@ -43,7 +42,6 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-firebase-common = { group = "com.google.firebase", name = "firebase-common", version.ref = "firebaseCommon" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
