@@ -38,8 +38,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/sign_up_email_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="337dp"
+            android:layout_height="61dp"
             android:layout_below="@id/sign_up_subtitle"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
@@ -49,8 +49,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/sign_up_password_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="333dp"
+            android:layout_height="62dp"
             android:layout_below="@+id/sign_up_email_input"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
@@ -60,8 +60,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/sign_up_confirm_password_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="327dp"
+            android:layout_height="62dp"
             android:layout_below="@+id/sign_up_password_input"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
